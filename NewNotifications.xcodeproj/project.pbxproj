@@ -13,6 +13,17 @@
 		4CBA9F151ED533530043D10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBA9F141ED533530043D10D /* Assets.xcassets */; };
 		4CBA9F181ED533530043D10D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBA9F161ED533530043D10D /* LaunchScreen.storyboard */; };
 		4CBA9F231ED533530043D10D /* NewNotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA9F221ED533530043D10D /* NewNotificationsTests.swift */; };
+		4CBA9F2E1ED53A590043D10D /* rick_grimes.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CBA9F2D1ED53A590043D10D /* rick_grimes.gif */; };
+		4CBA9F361ED53E5E0043D10D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBA9F351ED53E5E0043D10D /* UserNotifications.framework */; };
+		4CBA9F381ED53E5E0043D10D /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBA9F371ED53E5E0043D10D /* UserNotificationsUI.framework */; };
+		4CBA9F3B1ED53E5E0043D10D /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA9F3A1ED53E5E0043D10D /* NotificationViewController.swift */; };
+		4CBA9F3E1ED53E5E0043D10D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBA9F3C1ED53E5E0043D10D /* MainInterface.storyboard */; };
+		4CBA9F421ED53E5E0043D10D /* MyContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4CBA9F331ED53E5E0043D10D /* MyContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4CBA9F481ED54CAA0043D10D /* Superman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CBA9F471ED54CAA0043D10D /* Superman.jpg */; };
+		4CBA9F4C1ED54F8C0043D10D /* superman2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CBA9F4B1ED54F8C0043D10D /* superman2.jpg */; };
+		4CBA9F4E1ED550080043D10D /* superman4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBA9F4D1ED550080043D10D /* superman4.png */; };
+		4CBA9F501ED550770043D10D /* superman5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBA9F4F1ED550770043D10D /* superman5.png */; };
+		4CBA9F521ED550E20043D10D /* superman3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CBA9F511ED550E20043D10D /* superman3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +34,28 @@
 			remoteGlobalIDString = 4CBA9F091ED533530043D10D;
 			remoteInfo = NewNotifications;
 		};
+		4CBA9F401ED53E5E0043D10D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CBA9F021ED533530043D10D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBA9F321ED53E5E0043D10D;
+			remoteInfo = MyContentExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CBA9F461ED53E5E0043D10D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4CBA9F421ED53E5E0043D10D /* MyContentExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4CBA9F0A1ED533530043D10D /* NewNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +68,18 @@
 		4CBA9F1E1ED533530043D10D /* NewNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBA9F221ED533530043D10D /* NewNotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotificationsTests.swift; sourceTree = "<group>"; };
 		4CBA9F241ED533530043D10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBA9F2D1ED53A590043D10D /* rick_grimes.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rick_grimes.gif; sourceTree = "<group>"; };
+		4CBA9F331ED53E5E0043D10D /* MyContentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyContentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBA9F351ED53E5E0043D10D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		4CBA9F371ED53E5E0043D10D /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		4CBA9F3A1ED53E5E0043D10D /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		4CBA9F3D1ED53E5E0043D10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4CBA9F3F1ED53E5E0043D10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBA9F471ED54CAA0043D10D /* Superman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Superman.jpg; sourceTree = "<group>"; };
+		4CBA9F4B1ED54F8C0043D10D /* superman2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superman2.jpg; sourceTree = "<group>"; };
+		4CBA9F4D1ED550080043D10D /* superman4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = superman4.png; sourceTree = "<group>"; };
+		4CBA9F4F1ED550770043D10D /* superman5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = superman5.png; sourceTree = "<group>"; };
+		4CBA9F511ED550E20043D10D /* superman3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superman3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +97,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CBA9F301ED53E5E0043D10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBA9F381ED53E5E0043D10D /* UserNotificationsUI.framework in Frameworks */,
+				4CBA9F361ED53E5E0043D10D /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,7 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				4CBA9F0C1ED533530043D10D /* NewNotifications */,
+				4CBA9F391ED53E5E0043D10D /* MyContentExtension */,
 				4CBA9F211ED533530043D10D /* NewNotificationsTests */,
+				4CBA9F341ED53E5E0043D10D /* Frameworks */,
 				4CBA9F0B1ED533530043D10D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +125,7 @@
 			children = (
 				4CBA9F0A1ED533530043D10D /* NewNotifications.app */,
 				4CBA9F1E1ED533530043D10D /* NewNotificationsTests.xctest */,
+				4CBA9F331ED53E5E0043D10D /* MyContentExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +133,12 @@
 		4CBA9F0C1ED533530043D10D /* NewNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				4CBA9F4F1ED550770043D10D /* superman5.png */,
+				4CBA9F4D1ED550080043D10D /* superman4.png */,
+				4CBA9F4B1ED54F8C0043D10D /* superman2.jpg */,
+				4CBA9F511ED550E20043D10D /* superman3.jpg */,
+				4CBA9F471ED54CAA0043D10D /* Superman.jpg */,
+				4CBA9F2D1ED53A590043D10D /* rick_grimes.gif */,
 				4CBA9F0D1ED533530043D10D /* AppDelegate.swift */,
 				4CBA9F0F1ED533530043D10D /* ViewController.swift */,
 				4CBA9F111ED533530043D10D /* Main.storyboard */,
@@ -96,6 +158,25 @@
 			path = NewNotificationsTests;
 			sourceTree = "<group>";
 		};
+		4CBA9F341ED53E5E0043D10D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CBA9F351ED53E5E0043D10D /* UserNotifications.framework */,
+				4CBA9F371ED53E5E0043D10D /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CBA9F391ED53E5E0043D10D /* MyContentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4CBA9F3A1ED53E5E0043D10D /* NotificationViewController.swift */,
+				4CBA9F3C1ED53E5E0043D10D /* MainInterface.storyboard */,
+				4CBA9F3F1ED53E5E0043D10D /* Info.plist */,
+			);
+			path = MyContentExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,10 +187,12 @@
 				4CBA9F061ED533530043D10D /* Sources */,
 				4CBA9F071ED533530043D10D /* Frameworks */,
 				4CBA9F081ED533530043D10D /* Resources */,
+				4CBA9F461ED53E5E0043D10D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4CBA9F411ED53E5E0043D10D /* PBXTargetDependency */,
 			);
 			name = NewNotifications;
 			productName = NewNotifications;
@@ -134,6 +217,23 @@
 			productReference = 4CBA9F1E1ED533530043D10D /* NewNotificationsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4CBA9F321ED53E5E0043D10D /* MyContentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBA9F431ED53E5E0043D10D /* Build configuration list for PBXNativeTarget "MyContentExtension" */;
+			buildPhases = (
+				4CBA9F2F1ED53E5E0043D10D /* Sources */,
+				4CBA9F301ED53E5E0043D10D /* Frameworks */,
+				4CBA9F311ED53E5E0043D10D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyContentExtension;
+			productName = MyContentExtension;
+			productReference = 4CBA9F331ED53E5E0043D10D /* MyContentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -155,6 +255,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4CBA9F091ED533530043D10D;
 					};
+					4CBA9F321ED53E5E0043D10D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AND22C3SHR;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 4CBA9F051ED533530043D10D /* Build configuration list for PBXProject "NewNotifications" */;
@@ -172,6 +277,7 @@
 			targets = (
 				4CBA9F091ED533530043D10D /* NewNotifications */,
 				4CBA9F1D1ED533530043D10D /* NewNotificationsTests */,
+				4CBA9F321ED53E5E0043D10D /* MyContentExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -182,8 +288,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CBA9F181ED533530043D10D /* LaunchScreen.storyboard in Resources */,
+				4CBA9F521ED550E20043D10D /* superman3.jpg in Resources */,
+				4CBA9F481ED54CAA0043D10D /* Superman.jpg in Resources */,
 				4CBA9F151ED533530043D10D /* Assets.xcassets in Resources */,
+				4CBA9F2E1ED53A590043D10D /* rick_grimes.gif in Resources */,
+				4CBA9F501ED550770043D10D /* superman5.png in Resources */,
+				4CBA9F4C1ED54F8C0043D10D /* superman2.jpg in Resources */,
 				4CBA9F131ED533530043D10D /* Main.storyboard in Resources */,
+				4CBA9F4E1ED550080043D10D /* superman4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +303,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBA9F311ED53E5E0043D10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBA9F3E1ED53E5E0043D10D /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +334,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CBA9F2F1ED53E5E0043D10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBA9F3B1ED53E5E0043D10D /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -221,6 +349,11 @@
 			isa = PBXTargetDependency;
 			target = 4CBA9F091ED533530043D10D /* NewNotifications */;
 			targetProxy = 4CBA9F1F1ED533530043D10D /* PBXContainerItemProxy */;
+		};
+		4CBA9F411ED53E5E0043D10D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBA9F321ED53E5E0043D10D /* MyContentExtension */;
+			targetProxy = 4CBA9F401ED53E5E0043D10D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -239,6 +372,14 @@
 				4CBA9F171ED533530043D10D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4CBA9F3C1ED53E5E0043D10D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBA9F3D1ED53E5E0043D10D /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -342,6 +483,7 @@
 		4CBA9F281ED533530043D10D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AND22C3SHR;
 				INFOPLIST_FILE = NewNotifications/Info.plist;
@@ -355,6 +497,7 @@
 		4CBA9F291ED533530043D10D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AND22C3SHR;
 				INFOPLIST_FILE = NewNotifications/Info.plist;
@@ -395,6 +538,32 @@
 			};
 			name = Release;
 		};
+		4CBA9F441ED53E5E0043D10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AND22C3SHR;
+				INFOPLIST_FILE = MyContentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanvaid.NewNotifications.MyContentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4CBA9F451ED53E5E0043D10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AND22C3SHR;
+				INFOPLIST_FILE = MyContentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanvaid.NewNotifications.MyContentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -420,6 +589,14 @@
 			buildConfigurations = (
 				4CBA9F2B1ED533530043D10D /* Debug */,
 				4CBA9F2C1ED533530043D10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CBA9F431ED53E5E0043D10D /* Build configuration list for PBXNativeTarget "MyContentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBA9F441ED53E5E0043D10D /* Debug */,
+				4CBA9F451ED53E5E0043D10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
